@@ -6,7 +6,9 @@ import MateriDetail from './components/MateriDetail';
 import CapaianPembelajaran from './components/CapaianPembelajaran';
 import ProfilPancasila from './components/ProfilPancasila';
 import TujuanPembelajaran from './components/TujuanPembelajaran';
+import StatsSection from './components/StatsSection';
 import Footer from './components/Footer';
+import OfflineIndicator from './components/OfflineIndicator';
 
 const EconomicsWebsite = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -49,6 +51,7 @@ const EconomicsWebsite = () => {
             <CapaianPembelajaran />
             <ProfilPancasila />
             <TujuanPembelajaran />
+            <StatsSection />
           </>
         );
       case 'materi':
@@ -73,6 +76,9 @@ const EconomicsWebsite = () => {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-blue-100">
+      {/* Offline Indicator - Notifikasi saat online/offline */}
+      <OfflineIndicator />
+      
       <Header 
         isMenuOpen={isMenuOpen}
         setIsMenuOpen={setIsMenuOpen}

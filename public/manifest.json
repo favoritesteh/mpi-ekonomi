@@ -1,0 +1,27 @@
+{
+  "short_name": "MPI-Ekonomi",
+  "name": "MPI-Ekonomi - Portal Pembelajaran Ekonomi",
+  "description": "Platform pembelajaran ekonomi modern dengan fitur offline-first untuk akses tanpa batas",
+  "icons": [
+    {
+      "src": "/business-growth.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/business-growth.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#2563eb",
+  "background_color": "#ffffff",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "categories": ["education", "productivity"],
+  "lang": "id-ID"
+}
