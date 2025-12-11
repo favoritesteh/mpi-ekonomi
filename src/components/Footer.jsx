@@ -9,7 +9,7 @@ const Footer = () => {
           <div>
             <h3 className="text-xl font-bold text-white mb-4 flex items-center">
               <BookOpen className="w-6 h-6 mr-2 text-blue-500" />
-              EkonoLearn
+              MPI-Ekonomi
             </h3>
             <p className="text-gray-400 leading-relaxed">
               Platform pembelajaran ekonomi modern dengan fitur offline-first untuk akses tanpa batas.
@@ -37,12 +37,12 @@ const Footer = () => {
           </div>
           <div>
             <h4 className="text-lg font-semibold text-white mb-4">Kontak</h4>
-            <p className="text-gray-400">Email: info@ekonolearn.com</p>
-            <p className="text-gray-400">Tel: +62 812-3456-7890</p>
+            <p className="text-gray-400">Email: shivaaprilia1423@gmail.com</p>
+            <p className="text-gray-400">Tel: +62 823-7466-7209</p>
           </div>
         </div>
         <div className="border-t border-gray-800 pt-8 text-center text-gray-500">
-          <p>&copy; 2024 EkonoLearn. Dibuat dengan ❤️ untuk pendidikan ekonomi.</p>
+          <p>&copy; 2025 MPI-Ekonomi</p>
         </div>
       </div>
     </footer>
