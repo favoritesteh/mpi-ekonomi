@@ -6,7 +6,6 @@ import MateriDetail from './components/MateriDetail';
 import CapaianPembelajaran from './components/CapaianPembelajaran';
 import ProfilPancasila from './components/ProfilPancasila';
 import TujuanPembelajaran from './components/TujuanPembelajaran';
-import StatsSection from './components/StatsSection';
 import Footer from './components/Footer';
 import OfflineIndicator from './components/OfflineIndicator';
 
@@ -51,7 +50,6 @@ const EconomicsWebsite = () => {
             <CapaianPembelajaran />
             <ProfilPancasila />
             <TujuanPembelajaran />
-            <StatsSection />
           </>
         );
       case 'materi':

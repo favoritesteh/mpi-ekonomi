@@ -9,19 +9,16 @@ export const materiData = [
     'Masalah Pokok Ekonomi Klasik & Modern',
     'Menjelaskan masalah pokok ekonomi klasik (produksi, distribusi, konsumsi) serta masalah modern (what, how, for whom)',
     'BookOpen',
-    'https://www.youtube.com/watch?v=kIFBaaPP0Ic',
+    'https://www.youtube.com/watch?v=DH6hh1g7jPE',
     {
       pengantar:
-        'Masalah pokok ekonomi membahas bagaimana suatu negara atau pelaku ekonomi menentukan produksi, distribusi, konsumsi, serta cara memenuhi kebutuhan masyarakat secara efektif.',
-
+    'Masalah pokok ekonomi membahas bagaimana suatu negara atau pelaku ekonomi menentukan produksi, distribusi, konsumsi, serta cara memenuhi kebutuhan masyarakat secara efektif.',
       materiLengkap: `
-***A. Masalah Pokok dalam Perekonomian***
-
+**A. Masalah Pokok dalam Perekonomian**
+---
 Masalah pokok ekonomi dibagi menjadi dua aliran besar, yaitu **ekonomi klasik** dan **ekonomi modern**.
 
----
-
-## 1. ***Masalah Pokok Ekonomi Klasik***
+## 1. **Masalah Pokok Ekonomi Klasik**
 
 Menurut teori klasik, terdapat **tiga masalah utama**:
 
@@ -36,18 +33,16 @@ Pada masa klasik, distribusi dilakukan melalui pasar nyata (transaksi langsung).
 ### 🔹 **c. Masalah Konsumsi**
 **Apakah barang akan dikonsumsi atau tidak?**  
 Barang bisa tidak dikonsumsi bila:
-- Tidak dibutuhkan  
-- Tidak diinginkan  
-- Harganya tidak terjangkau  
-
+# - Tidak dibutuhkan  
+# - Tidak diinginkan  
+# - Harganya tidak terjangkau  
 Konsumen harus meningkatkan pendapatan untuk memenuhi kebutuhannya.
 
 ### 🔸 **Contoh kasus klasik**
 Seorang petani menanam padi (**produksi**), menjual hasil panen ke koperasi (**distribusi**), dan masyarakat membeli beras untuk kebutuhan sehari-hari (**konsumsi**).
-
 ---
 
-## 2. ***Masalah Pokok Ekonomi Modern***
+## 2. **Masalah Pokok Ekonomi Modern**
 
 Modern economics merumuskan 3 masalah besar:
 
@@ -61,13 +56,12 @@ Metode, tenaga kerja, alat produksi harus efektif dan efisien.
 
 ### 🔹 **c. For Whom (Untuk siapa barang diproduksi?)**
 Menentukan target pasar berdasarkan:
-- Usia  
-- Penghasilan  
-- Minat  
-- Lokasi  
+# - Usia  
+# - Penghasilan  
+# - Minat  
+# - Lokasi  
 
-**Contoh:** Pabrik aksesoris stainless steel menargetkan masyarakat menengah ke bawah.
-
+ **Contoh** : Pabrik aksesoris stainless steel menargetkan masyarakat menengah ke bawah.
 ---
 `,
 
@@ -87,77 +81,200 @@ Menentukan target pasar berdasarkan:
   // =================================
   // 📘 MATERI 2 — PERMINTAAN & PENAWARAN
   // =================================
-  new MateriMikro(
-    2,
-    'Permintaan & Penawaran',
-    'Pelajari hukum dasar ekonomi mikro tentang interaksi permintaan dan penawaran di pasar',
-    'TrendingUp',
-    'https://www.youtube.com/watch?v=kIFBaaPP0Ic',
-    {
-      pengantar:
-        'Permintaan dan penawaran adalah konsep fundamental dalam ekonomi yang menjelaskan bagaimana harga dan kuantitas barang ditentukan di pasar.',
+ // Paste this inside materiData array
+new MateriMikro(
+  2,
+  'Sistem Ekonomi',
+  'Memahami berbagai sistem ekonomi: tradisional, komando, pasar, dan campuran',
+  'Building',
+  'https://www.youtube.com/watch?v=1wyfj9VSK98', // isi video nanti
+  {
+    pengantar:
+      'Sistem ekonomi adalah seperangkat aturan, mekanisme, serta cara yang digunakan suatu negara untuk mengatur kegiatan produksinya guna mencapai tujuan ekonomi.',
 
-      materiLengkap: `
-## ★ Materi Lengkap: Permintaan & Penawaran
+    materiLengkap: `
 
-### 🔹 Hukum Permintaan  
-Jika harga naik → jumlah barang yang diminta turun (*ceteris paribus*).
+Sistem ekonomi adalah perpaduan aturan, mekanisme, serta cara untuk mengatur kegiatan ekonomi. Perbedaan sistem ekonomi muncul karena perbedaan kepemilikan sumber daya dan sistem pemerintahan.
 
-### 🔹 Hukum Penawaran  
-Jika harga naik → jumlah barang yang ditawarkan naik.
 
-### 🔹 Titik Keseimbangan  
-Terjadi ketika kurva permintaan dan penawaran bertemu.
+# **1. Sistem Ekonomi Tradisional**
 
-### 🔹 Faktor Perubahan  
-- Pendapatan  
-- Selera  
-- Harga barang substitusi  
-- Ekspektasi harga
+Sistem ekonomi tradisional merupakan sistem ekonomi yang diterapkan oleh masyarakat tradisional.
+## **Ciri-ciri**:
+# - Teknik produksi sederhana dan diwariskan
+# - Modal kecil
+# - Pertukaran dengan barter
+# - Belum ada pembagian kerja
+# - Terikat adat dan tradisi
+# - Tanah menjadi pusat kegiatan ekonomi
+
+## **Kelebihan**:
+# - Kerja sama dan kerukunan tinggi
+# - Minim pemborosan
+# - Tradisi terjaga
+# - Alam lebih lestari
+
+## **Kekurangan**:
+# - Bergantung pada alam
+# - Standar hidup rendah
+# - Teknologi tertinggal
+# - Perubahan lambat
+-
+
+# **2. Sistem Ekonomi Komando (Terpusat)**
+Pada sistem ekonomi komando (sistem ekonomi pusat/perencanaan), peran pemerintah sangat dominan, sedangkan peran masyarakat atau pihak swasta sangat kecil. Contoh negara yang dapat dikatakan mendekati sistem ekonomi komando adalah Kuba. 
+## **Ciri-ciri**:
+# - Alat produksi dimiliki negara
+# - Pemerintah mengatur jenis dan jumlah kerja
+# - Semua kebijakan ekonomi ditentukan pemerintah
+
+## **Kelebihan**:
+# - Pemerintah mudah mengendalikan inflasi & pengangguran
+# - Produksi sesuai rencana nasional
+# - Distribusi pendapatan lebih mudah
+# - Krisis ekonomi jarang terjadi
+
+## **Kekurangan**:
+# - Inisiatif individu rendah
+# - Monopoli oleh negara
+# - Tidak ada kebebasan memiliki sumber daya
+
+
+# **3. Sistem Ekonomi Pasar (Liberal)**
+Sistem ekonomi pasar merupakan kebalikan dari sistem ekonomi komando. Pada sistem ekonomi pasar, kegiatan ekonomi dilakukan oleh pihak swasta. Pemerintah hanya mengawasi dan melakukan kegiatan ekonomi yang berhubungan dengan penyelenggaraan negara. Contoh negara yang sistem ekonominya mendekati sistem ekonomi pasar adalah Amerika Serikat dan Inggris.
+## **Ciri-ciri**:
+# - Sumber produksi milik masyarakat
+# - Pemerintah tidak ikut campur langsung
+# - Terdapat pemilik modal & pekerja
+# - Persaingan bebas
+# - Berorientasi keuntungan
+# - Keputusan berdasarkan kondisi pasar
+
+## **Kelebihan**:
+# - Kreativitas & inovasi masyarakat meningkat
+# - Kepemilikan sumber daya bebas
+# - Kualitas barang tinggi
+# - Efisien karena berorientasi profit
+
+## **Kekurangan**:
+# - Sulit pemerataan pendapatan
+# - Eksploitasi pekerja
+# - Monopoli sering muncul
+# - Gejolak ekonomi sering terjadi
+
+
+# **4. Sistem Ekonomi Campuran**
+Dalam sistem ekonomi campuran, pemerintah dan swasta (masyarakat) saling berinteraksi dalam memecahkan masalah ekonomi. Kegiatan ekonomi masyarakat diserahkan kepada kekuatan pasar. Namun sampai pada batas tertentu, pemerintah tetap melakukan kendali dan campur tangan. Tujuan pemerintah dalam campur tangan adalah agar perekonomian tidak lepas kendali sama sekali dan tidak hanya menguntungkan pemilik modal besar.
+## **Ciri-ciri**:
+# - Pemerintah & swasta bersama mengatur ekonomi
+# - Mekanisme pasar tetap digunakan
+# - Persaingan ada tetapi diawasi pemerintah
+
+## **Kelebihan**:
+# - Stabilitas ekonomi lebih terjaga
+# - Pemerintah dapat fokus mengembangkan UMKM
+# - Kebebasan berusaha tetap ada
+# - Hak milik individu tetap diakui
+
+## **Kekurangan**:
+# - Sulit menentukan batas peran pemerintah & swasta
+# - Sulit menentukan batas penguasaan sumber produksi
+
+
 `,
 
-      poinPenting: [
-        'Hukum Permintaan: harga naik → permintaan turun',
-        'Hukum Penawaran: harga naik → penawaran naik',
-        'Equilibrium adalah pertemuan kurva P & Q',
-        'Dipengaruhi pendapatan, selera, substitusi'
-      ],
+    poinPenting: [
+      'Sistem tradisional bergantung adat & alam',
+      'Sistem komando dikuasai negara',
+      'Sistem pasar memberikan kebebasan penuh masyarakat',
+      'Sistem campuran menggabungkan pasar dan intervensi pemerintah'
+    ],
 
-      contohKasus:
-        'Ketika harga BBM naik, permintaan mobil hemat bahan bakar meningkat, sementara permintaan mobil boros BBM menurun.'
-    }
-  ),
+    contohKasus:
+      'Banyak negara modern cenderung menerapkan sistem ekonomi campuran untuk menjaga keseimbangan antara kebebasan pasar dan stabilitas ekonomi.'
+  }
+),
 
   // =================================
   // 📘 MATERI 3 — ELASTISITAS
   // =================================
-  new MateriMikro(
-    3,
-    'Elastisitas Harga',
-    'Memahami responsivitas permintaan dan penawaran terhadap harga',
-    'BarChart3',
-    'https://www.youtube.com/watch?v=HHcblIxiAAk',
-    {
-      pengantar: 'Elastisitas mengukur seberapa sensitif jumlah barang terhadap perubahan harga.',
+ // Paste this inside materiData array
+new MateriMikro(
+  3,
+  'Sistem Ekonomi Pancasila',
+  'Memahami landasan, nilai dasar, karakteristik, dan hal yang harus dihindari dalam sistem ekonomi Pancasila',
+  'Handshake',
+  'https://www.youtube.com/watch?v=F_jv9kRYmRs', // isi video nanti
+  {
+    pengantar:
+      'Sistem Ekonomi Pancasila adalah sistem ekonomi khas Indonesia yang berlandaskan Pancasila dan UUD 1945, serta bertujuan mewujudkan kesejahteraan rakyat berdasarkan asas kekeluargaan.',
 
-      materiLengkap: `
-## ★ Materi Lengkap Elastisitas
+    materiLengkap: `
+Sistem ekonomi Pancasila merupakan sistem ekonomi nasional Indonesia yang berdasarkan nilai-nilai Pancasila dan UUD 1945. Sistem ini menekankan asas kekeluargaan, keadilan sosial, dan kesejahteraan masyarakat.
 
-### Jenis Elastisitas:
-- **Elastis (E > 1)**: Perubahan kuantitas lebih besar dari perubahan harga  
-- **Inelastis (E < 1)**: Perubahan kuantitas lebih kecil  
-- **Unitary (E = 1)**: Seimbang  
-- Barang pokok biasanya inelastis, barang mewah elastis
+# **1. Landasan Konstitusional Sistem Ekonomi Pancasila**
+
+Landasan sistem ekonomi Pancasila terdapat pada:
+
+# - **Pancasila**
+# - **Pasal 27 ayat (2)**: Hak warga negara atas pekerjaan dan penghidupan layak
+# - **Pasal 28**: Kebebasan berserikat, berkumpul, dan mengeluarkan pendapat
+# - **Pasal 31**: Hak memperoleh pendidikan
+# - **Pasal 33**:
+  # 1) Perekonomian disusun sebagai usaha bersama berasaskan kekeluargaan
+  # 2) Cabang produksi penting dikuasai negara
+  # 3) Sumber daya alam digunakan untuk kemakmuran rakyat
+# - **Pasal 34**: Fakir miskin dan anak terlantar dipelihara negara
+
+# **2. Nilai-Nilai Dasar Perekonomian Indonesia**
+Sesuai dengan landasannya, nilai-nilai yang mendasari perekonomian Indonesia juga harus sesuai dengan nilai-nilai yang terkandung dalam Pancasila. Berikut ini nilai-nilai dasar perekonomian Indonesia yang sesuai dengan Pancasila.
+
+### **a. Ketuhanan**
+Kegiatan ekonomi tidak hanya mengejar keuntungan, tetapi juga memperhatikan moral dan sosial.
+
+### **b. Kemanusiaan / Pemerataan Sosial**
+Bertujuan mengurangi ketimpangan sosial dan mewujudkan pemerataan ekonomi.
+
+### **c. Kepentingan Nasional**
+Perekonomian nasional harus kuat, tangguh, dan mandiri menghadapi globalisasi.
+
+### **d. Kepentingan Rakyat (Demokrasi Ekonomi)**
+Berlandaskan:
+# - Kerakyatan & kekeluargaan
+# - Koperasi dan usaha kooperatif
+
+### **e. Keadilan Sosial**
+Keseimbangan antara perencanaan pusat dan otonomi daerah untuk mewujudkan keadilan bagi seluruh rakyat.
+
+# **3. Karakteristik Perekonomian Indonesia**
+
+# - Pemerintah dan swasta hidup berdampingan untuk mencegah ekstrem sistem liberal maupun komando
+# - Berdasarkan asas kekeluargaan, tidak didominasi modal maupun buruh
+# - Masyarakat berperan penting dalam produksi
+# - Negara menguasai sumber daya alam untuk kepentingan umum
+
+# **4. Hal-Hal Negatif yang Harus Dihindari**
+Dalam perekonomian Indonesia terdapat beberapa hal yang harus dihindari. Hal-hal tersebut antara lain sebagai berikut.
+### **a. Sistem Ekonomi Liberal Bebas**
+Eksploitasi sumber daya dan ketidakstabilan ekonomi (pernah terjadi 1950–1957).
+
+### **b. Sistem Ekonomi Komando**
+Mematikan potensi swasta dan inovasi.
+
+### **c. Persaingan Tidak Sehat & Pemusatan Kekuasaan Ekonomi**
+Mengakibatkan ketimpangan dan merugikan masyarakat.
+
 `,
 
-      poinPenting: [
-        'Elastis (E > 1), Inelastis (E < 1)',
-        'Barang pokok cenderung inelastis',
-        'Barang mewah lebih elastis'
-      ],
+    poinPenting: [
+      'Berdasarkan Pancasila dan UUD 1945',
+      'Menjunjung asas kekeluargaan dan keadilan sosial',
+      'Negara menguasai cabang produksi penting',
+      'Menghindari liberalisme, komando, dan monopoli'
+    ],
 
-      contohKasus:
-        'Beras adalah barang inelastis. Meskipun harga naik, masyarakat tetap membelinya.'
-    }
-  ),
+    contohKasus:
+      'Dalam pengelolaan sumber daya alam seperti tambang dan air, negara berperan besar agar hasilnya digunakan untuk sebesar-besar kemakmuran rakyat.'
+  }
+),
 ];
